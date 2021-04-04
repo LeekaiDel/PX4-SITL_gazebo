@@ -55,11 +55,11 @@
     </joint>
 
     <include>
-        <uri>model://depth_camera</uri>
+        <uri>model://r200</uri>
         <pose>0.1 0 0 0 0 0</pose>
       </include>
       <joint name="depth_camera_joint" type="revolute">
-        <child>realsense_camera::link</child>
+        <child>r200::link</child>
         <parent>iris::base_link</parent>
         <axis>
           <xyz>0 0 1</xyz>
