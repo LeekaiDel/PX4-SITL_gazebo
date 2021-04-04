@@ -6,11 +6,11 @@
     </include>
 
     <include>
-      <uri>model://stereo_camera</uri>
+      <uri>model://r200</uri>
       <pose>0.1 0 0 0 0 0</pose>
     </include>
-    <joint name="stereo_camera_joint" type="revolute">
-      <child>stereo_camera::link</child>
+    <joint name="depth_camera_joint" type="revolute">
+      <child>r200::link</child>
       <parent>iris::base_link</parent>
       <axis>
         <xyz>0 0 1</xyz>
