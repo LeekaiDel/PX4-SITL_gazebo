@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="house1">
+        <static>true</static>
+        <link name="link">
+            <collision name="collision1">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://house_scene_1_wall/meshes/scene_1_wall.dae</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual_walls1">
+              <pose>0 0 0 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://house_scene_1_wall/meshes/scene_1_wall.dae</uri>
+              </mesh>
+              </geometry>
+              <material>
+                  <script>
+                      <uri>model://house_scene_1_wall/materials/scripts</uri>
+                      <uri>model://house_scene_1_wall/materials/textures</uri>
+                      <name>houseMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+            
+            
+        </link>        
+    </model>
+</sdf>
+

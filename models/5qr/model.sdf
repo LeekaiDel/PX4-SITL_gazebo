@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="5qr">
+        <static>true</static>
+        <link name="link">
+            
+             
+             <collision name="collision5">
+                <pose>0 0 0.27 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://5qr/meshes/qr.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual5">
+              
+              <pose>0 0 0.27 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://5qr/meshes/qr5.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://5qr/materials/scripts</uri>
+                      <uri>model://5qr/materials/textures</uri>
+                      <name>qrMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+            
+        </link>        
+    </model>
+</sdf>
+

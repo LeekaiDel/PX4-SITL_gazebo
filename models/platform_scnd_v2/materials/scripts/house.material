@@ -1,0 +1,16 @@
+material platformscndMat/Diffuse
+{
+ receive_sfadows off
+ technique
+ {
+  pass
+   {
+    texture_unit
+    {
+     texture 6124510128_245615141312_1311985431_circle.png
+    }
+   }
+ 
+ }
+}
+

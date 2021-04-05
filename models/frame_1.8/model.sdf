@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="frame_1_8">
+        <static>true</static>
+        <link name="link">
+            <collision name="collision1">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_1.8/meshes/frame_1_8.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual1">
+              
+              <pose>0 0 0 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_1.8/meshes/frame_1_8.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_1.8/materials/scripts</uri>
+                      <uri>model://frame_1.8/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             
+        </link>        
+    </model>
+</sdf>
+
