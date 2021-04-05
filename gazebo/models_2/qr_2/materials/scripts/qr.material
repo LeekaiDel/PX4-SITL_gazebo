@@ -1,0 +1,18 @@
+material qr2Mat/Diffuse
+{
+ receive_sfadows off
+ technique
+ {
+  pass
+   {
+    texture_unit
+    {
+     texture 1-15.png
+    }
+   }
+ 
+ }
+}
+
+
+ 

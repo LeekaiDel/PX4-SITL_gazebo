@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="9qr">
+        <static>true</static>
+        <link name="link">
+            
+             
+             <collision name="collision9">
+                <pose>5.6 -5.2 0.27 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://9qr/meshes/qr.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual9">
+              
+              <pose>5.6 -5.2 0.27 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://9qr/meshes/qr9.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://9qr/materials/scripts</uri>
+                      <uri>model://9qr/materials/textures</uri>
+                      <name>qrMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+        </link>        
+    </model>
+</sdf>
+

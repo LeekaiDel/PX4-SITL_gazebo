@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <world name="default">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        
+        <include>
+            <uri>model://ground_my</uri>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://road_2</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://cylinder_2</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://frame_2</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+       
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>-22.8 -8 0 0 0 60</pose>
+        </include>
+       
+     </world>   
+</sdf>
+ 

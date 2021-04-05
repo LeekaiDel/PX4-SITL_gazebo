@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <world name="default">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        
+        <include>
+            <uri>model://ground_my</uri>
+        </include>
+        
+        <include>
+            <uri>model://house_scene_1_walls_out</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall_w_win_1</name>
+            <uri>model://house_scene_1_wall_w_window</uri>
+            <static>true</static>
+            <pose>-2.222210 10.732579 0 0 0 1.567493</pose>
+        </include>
+        
+        <include>
+            <name>wall_w_win_2</name>
+            <uri>model://house_scene_1_wall_w_window</uri>
+            <static>true</static>
+            <pose>-3.958748 12.639949 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall_w_win_3</name>
+            <uri>model://house_scene_1_wall_w_window</uri>
+            <static>true</static>
+            <pose>-3.960691 19.887342 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall_w_door_1</name>
+            <uri>model://house_scene_1_wall_w_door</uri>
+            <static>true</static>
+            <pose>-5.386255 9.582332 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall_1</name>
+            <uri>model://house_scene_1_wall</uri>
+            <static>true</static>
+            <pose>0.821740 7.332443 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall_2</name>
+            <uri>model://house_scene_1_wall</uri>
+            <static>true</static>
+            <pose>-1.037633 14.302383 0 0 0 -1.570796</pose>
+        </include>
+        
+        <include>
+            <name>wall_5</name>
+            <uri>model://house_scene_1_wall</uri>
+            <static>true</static>
+            <pose>3.026288 11.437896 0 0 0 1.570840</pose>
+        </include>
+        
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>cube</name>
+            <uri>model://1cube</uri>
+            <static>true</static>
+            <pose>0.450661 18.79 0.11 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>2cube</name>
+            <uri>model://1cube</uri>
+            <static>true</static>
+            <pose>-4.506818 17.1795 0.11 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>3cube</name>
+            <uri>model://1cube</uri>
+            <static>true</static>
+            <pose>-2.89 11.88 0.11 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>4cube</name>
+            <uri>model://1cube</uri>
+            <static>true</static>
+            <pose>-6.51 7.131 0.11 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>5cube</name>
+            <uri>model://1cube</uri>
+            <static>true</static>
+            <pose>5.1726 8.2202 0.11 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall_w_door_small_1</name>
+            <uri>model://house_scene_1_wall_w_door_small</uri>
+            <static>true</static>
+            <pose>3.024304 8.495412 0 0 0 1.570796</pose>
+        </include>
+        
+        <include>
+            <name>wall_small_1</name>
+            <uri>model://house_scene_1_wall_small</uri>
+            <static>true</static>
+            <pose>3.024304 6.060440 0 0 0 1.570796</pose>
+        </include>
+        
+        <include>
+            <name>wall_small_2</name>
+            <uri>model://house_scene_1_wall_small</uri>
+            <static>true</static>
+            <pose>6.369716 13.632973 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall_w_win_small_1</name>
+            <uri>model://house_scene_1_wall_w_window_small</uri>
+            <static>true</static>
+            <pose>4.171270 13.632973 0 0 0 0</pose>
+        </include>
+
+     </world>   
+</sdf>
+ 
+  
+ 
+ 

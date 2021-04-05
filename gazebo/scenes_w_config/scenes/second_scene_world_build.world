@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <world name="default">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        
+        <include>
+            <uri>model://ground_my</uri>
+        </include>
+        
+        <include>
+            <name>walls</name>
+            <uri>model://house_scene_2_walls_out</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall1</name>
+            <uri>model://house_scene_2_wall_1</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall2</name>
+            <uri>model://house_scene_2_wall_2</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall3</name>
+            <uri>model://house_scene_2_wall_3</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall4</name>
+            <uri>model://house_scene_2_wall_4</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall5</name>
+            <uri>model://house_scene_2_wall_5</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall6</name>
+            <uri>model://house_scene_2_wall_6</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall7</name>
+            <uri>model://house_scene_2_wall_7</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall8</name>
+            <uri>model://house_scene_2_wall_8</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall9</name>
+            <uri>model://house_scene_2_wall_9</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall10</name>
+            <uri>model://house_scene_2_wall_10</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall11</name>
+            <uri>model://house_scene_2_wall_11</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>wall12</name>
+            <uri>model://house_scene_2_wall_12</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>2qr</name>
+            <uri>model://3qr</uri>
+            <static>true</static>
+            <pose>-4.1567 17.32 0 0 0 0</pose>
+        </include>
+        <include>
+            <name>3qr</name>
+            <uri>model://4qr</uri>
+            <static>true</static>
+            <pose>4.87 19.8674 0 0 0 0</pose>
+        </include>
+        <include>
+            <name>4qr</name>
+            <uri>model://1qr</uri>
+            <static>true</static>
+            <pose>-1.2248 6.9696 0 0 0 0</pose>
+        </include>
+        <include>
+            <name>5qr</name>
+            <uri>model://7qr</uri>
+            <static>true</static>
+            <pose>1.2015 17.6318 0 0 0 0</pose>
+        </include>
+        <include>
+            <name>6qr</name>
+            <uri>model://5qr</uri>
+            <static>true</static>
+            <pose>5.14 14.32 0 0 0 0</pose>
+        </include>
+        <include>
+            <name>7qr</name>
+            <uri>model://11qr</uri>
+            <static>true</static>
+            <pose>-10.7207 12.7911 0 0 0 0</pose>
+        </include>
+        <include>
+            <name>8qr</name>
+            <uri>model://12qr</uri>
+            <static>true</static>
+            <pose>-5.8363 12.855 0 0 0 0</pose>
+        </include>
+        <include>
+            <name>9qr</name>
+            <uri>model://10qr</uri>
+            <static>true</static>
+            <pose>-0.6477 12.7135 0 0 0 0</pose>
+        </include>
+  
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>-6.1695 6.4731 0.27 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://platform_scnd</uri>
+            <static>true</static>
+            <pose>-5.29 17.4187 0.27 0 0 0</pose>
+        </include>
+       
+     </world>   
+</sdf>
+ 
+ 

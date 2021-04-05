@@ -1,0 +1,74 @@
+ 
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <world name="default">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        
+        <include>
+            <uri>model://ground_my</uri>
+        </include>
+        
+        <include>
+            <uri>model://road</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>1cyl</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+            <pose>20 -8.4 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>2cyl</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+            <pose>-4 13.7 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>3cyl</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+            <pose>-15 -8 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>4cyl</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+            <pose>0 -13.6 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>5cyl</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+            <pose>18 6.3 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>6cyl</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+            <pose>-15 5.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://frame</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+       
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>11 11 0 0 0 60</pose>
+        </include>
+       
+     </world>   
+</sdf>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="6qr">
+        <static>true</static>
+        <link name="link">
+            
+             <collision name="collision6">
+                <pose>-5.5 -5.2 0.27 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://6qr/meshes/qr.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual6">
+              
+              <pose>-5.5 -5.2 0.27 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://qr_1/meshes/qr6.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://6qr/materials/scripts</uri>
+                      <uri>model://6qr/materials/textures</uri>
+                      <name>qrMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             
+        </link>        
+    </model>
+</sdf>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="1qr">
+        <static>true</static>
+        <link name="link">
+            <collision name="collision1">
+                <pose>-4 5.5 0.27 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://1qr/meshes/qr.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual1">
+              
+              <pose>-4 5.5 0.27 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://1qr/meshes/qr2.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://1qr/materials/scripts</uri>
+                      <uri>model://1qr/materials/textures</uri>
+                      <name>qrMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+            
+        </link>        
+    </model>
+</sdf>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="cylinder_05">
+        <static>true</static>
+        <link name="link">
+            <collision name="collision1">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://cylinder_0.5/meshes/cylinder_0_5.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual1">
+              
+              <pose>0 0 0 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://cylinder_0.5/meshes/cylinder_0_5.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://cylinder_0.5/materials/scripts</uri>
+                      <uri>model://cylinder_0.5/materials/textures</uri>
+                      <name>cylinderMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+            
+        </link>        
+    </model>
+</sdf>
+

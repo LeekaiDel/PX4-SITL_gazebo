@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">   
+  <model name="cat">
+    <pose>0 0 0  0 0 0</pose>
+    <static>true</static>
+    <link name="body">
+      <visual name="visual">
+          <geometry>
+            <mesh><uri>file://media/op/44428273-49b9-4fb6-9af0-f24d3b55115f/Gazeboo/create_world/models/cat/meshes/cat.stl</uri></mesh>
+          </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf> 

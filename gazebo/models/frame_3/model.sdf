@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="frame">
+        <static>true</static>
+        <link name="link">
+            <collision name="collision1">
+                <pose>-26.5 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_2.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual1">
+              
+              <pose>-26.5 0 0 0 0 -1.57</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_2.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision2">
+                <pose>-19 -14 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_1_2.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual2">
+              
+              <pose>-19 -14 0 0 0 -0.30</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_1_2.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision3">
+                <pose>-6 -14 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_1_2.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual3">
+              
+              <pose>-6 -14 0 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_1_2.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision4">
+                <pose>3.6 -12 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_2.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual4">
+              
+              <pose>3.6 -12 0 0 0 0.087</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_2.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision5">
+                <pose>11 -9.5 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_1_8.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual5">
+              
+              <pose>11 -9.5 0 0 0 0.087</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_1_8.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision6">
+                <pose>25.3 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_2.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual6">
+              
+              <pose>25.3 0 0 0 0 1.57</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_2.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision7">
+                <pose>18 6.8 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_1_8.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual7">
+              
+              <pose>18 6.8 0 0 0 3.23</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_1_8.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision8">
+                <pose>3 10.4 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_1_5.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual8">
+              
+              <pose>3 10.4 0 0 0 3.0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_1_5.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision9">
+                <pose>9 5.5 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_1_8.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual9">
+              
+              <pose>9 5.5 0 0 0 3.14</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_1_8.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             <collision name="collision10">
+                <pose>-16 8.1 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://frame_3/meshes/frame_1.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual10">
+              
+              <pose>-16 8.1 0 0 0 3.32</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://frame_3/meshes/frame_1.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://frame_3/materials/scripts</uri>
+                      <uri>model://frame_3/materials/textures</uri>
+                      <name>frameMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+        </link>        
+    </model>
+</sdf>
+

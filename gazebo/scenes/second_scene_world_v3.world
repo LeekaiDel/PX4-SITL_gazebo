@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <world name="default">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+        
+        <include>
+            <uri>model://house_scene_2</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://qr_3</uri>
+            <static>true</static>
+            <pose>0 12.5 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>2.5 13.1 0.27 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://platform_scnd_3</uri>
+            <static>true</static>
+            <pose>5.6 7.3 0.27 0 0 0</pose>
+        </include>
+       
+     </world>   
+</sdf>
+
+ 

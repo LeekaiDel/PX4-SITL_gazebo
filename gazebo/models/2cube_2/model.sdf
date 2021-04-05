@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="2cube">
+        <static>true</static>
+        <link name="link">
+            
+             <collision name="collision2">
+                <pose>-6.5 13.5 0.1 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://2cube_2/meshes/cube.dae</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual2">
+              
+              <pose>-6.5 13.5 0.1 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://2cube_2/meshes/cube.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://2cube_2/materials/scripts</uri>
+                      <uri>model://2cube_2/materials/textures</uri>
+                      <name>cubeMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+             
+             
+        </link>        
+    </model>
+</sdf>
+

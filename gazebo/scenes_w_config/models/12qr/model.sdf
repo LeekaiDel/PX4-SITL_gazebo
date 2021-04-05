@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="12qr">
+        <static>true</static>
+        <link name="link">
+            
+             
+             <collision name="collision12">
+                <pose>5.6 -5.2 0.27 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://12qr/meshes/qr.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual12">
+              
+              <pose>5.6 -5.2 0.27 0 0 0</pose>
+              <geometry>
+              <mesh>
+                 <uri>model://12qr/meshes/qr12.dae</uri>
+              </mesh>
+              </geometry>
+              
+              <material>
+                  <script>
+                      <uri>model://12qr/materials/scripts</uri>
+                      <uri>model://12qr/materials/textures</uri>
+                      <name>qrMat/Diffuse</name>
+                  </script>
+              </material>
+             </visual>
+        </link>        
+    </model>
+</sdf>
+

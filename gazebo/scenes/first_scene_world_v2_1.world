@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <world name="default">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        
+        <include>
+            <uri>model://ground_my</uri>
+        </include>
+        
+        <include>
+            <uri>model://house_scene_1_v2</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>1cube</name>
+            <uri>model://1cube_2</uri>
+            <static>true</static>
+            <pose>0 0 0.01 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>2cube</name>
+            <uri>model://2cube_2</uri>
+            <static>true</static>
+            <pose>0 0 0.01 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>3cube</name>
+            <uri>model://3cube_2</uri>
+            <static>true</static>
+            <pose>0 0 0.01 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>4cube</name>
+            <uri>model://4cube_2</uri>
+            <static>true</static>
+            <pose>0 0 0.01 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>5cube</name>
+            <uri>model://5cube_2</uri>
+            <static>true</static>
+            <pose>0 0 0.01 0 0 0</pose>
+        </include>
+
+     </world>   
+</sdf>
+ 
+ 
